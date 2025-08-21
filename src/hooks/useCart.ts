@@ -1,9 +1,8 @@
 import { useState, useEffect, useMemo } from "react";
 
-import db from "../mock/db.json";
+import { db } from "../mock/db";
 
 function useCart() {
-  
   const initialCart = () => {
     const localStorageCart = localStorage.getItem('cart');
 
