@@ -16,7 +16,7 @@ Este proyecto es un **carrito de compras completamente funcional** que permite a
 
 ### **Despliegue en Vivo**
 
-Puedes ver el proyecto en funcionamiento aquí: [**Enlace a Netlify**](https://ejemplo-carrito-compras.netlify.app/)
+Puedes ver el proyecto en funcionamiento aquí: [**Enlace a Netlify**](https://clinquant-gingersnap-14b810.netlify.app/)
 
 ---
 
@@ -38,7 +38,6 @@ Para solidificar mi aprendizaje y darle un toque personal al proyecto, implement
 * **Migración a TypeScript**: Originalmente desarrollado con JavaScript, migré el proyecto a **TypeScript** para aprovechar el tipado estricto y mejorar la calidad del código. Esta refactorización demuestra mi habilidad para trabajar con bases de código tipadas y prevenir errores comunes en tiempo de desarrollo.
 * **Refactorización a Custom Hook**: Migré la lógica del carrito a un **custom hook (`useCart.ts`)** para encapsular la funcionalidad, mejorar la reutilización del código y mantener los componentes limpios y enfocados en la UI.
 * **Diseño Responsivo**: Apliqué estilos **responsivos** para garantizar una experiencia de usuario fluida en dispositivos móviles y de escritorio.
-* **Animaciones y transiciones**: Añadí animaciones sutiles al agregar y eliminar productos del carrito para una experiencia más interactiva y visualmente atractiva.
 
 ---
 
@@ -48,7 +47,7 @@ Si deseas clonar y probar este proyecto en tu entorno local, sigue estos pasos.
 
 1.  Clona el repositorio:
     ```bash
-    git clone [https://github.com/tu-usuario/nombre-del-repo.git](https://github.com/tu-usuario/nombre-del-repo.git)
+    git clone [https://https://github.com/Jommp/shopping-cart-ts.git](https://https://github.com/Jommp/shopping-cart-ts.git)
     ```
 2.  Navega al directorio del proyecto:
     ```bash
@@ -67,4 +66,4 @@ Si deseas clonar y probar este proyecto en tu entorno local, sigue estos pasos.
     bun run dev
     ```
 
-El proyecto se abrirá automáticamente en tu navegador en la URL `http://localhost:3000`.
+El proyecto se abrirá automáticamente en tu navegador en la URL `http://localhost:5173/`.
