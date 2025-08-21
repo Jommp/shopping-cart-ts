@@ -5,7 +5,7 @@ type GuitarProps = {
   addToCart: (item: Guitar) => void
 }
 
-function Guitar({ guitar, addToCart } : GuitarProps) {
+export default function Guitar({ guitar, addToCart } : GuitarProps) {
   const { name, image, description, price } = guitar;
 
   return (
@@ -38,5 +38,3 @@ function Guitar({ guitar, addToCart } : GuitarProps) {
     </div>
   );
 }
-
-export default Guitar;
