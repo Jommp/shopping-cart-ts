@@ -5,7 +5,7 @@ import useCart from "./hooks/useCart";
 
 function App() {
   const {
-    guitars,
+    data,
     cart,
     addToCart,
     removeFromCart,
@@ -35,7 +35,7 @@ function App() {
 
         <div className="row mt-5">
           {
-            guitars.map((guitar) => 
+            data.map((guitar) => 
               <Guitar
                 key={guitar.id}
                 guitar={guitar}

@@ -11,7 +11,7 @@ function useCart() {
     return localStorageCart ? JSON.parse(localStorageCart) : [];
   }
 
-  const [guitars] = useState(db);
+  const [data] = useState(db);
   const [cart, setCart] = useState(initialCart);
 
   const MAX_GUITARS_QUANTITY = 5;
@@ -82,7 +82,7 @@ function useCart() {
   );
 
   return {
-    guitars,
+    data,
     cart,
     addToCart,
     removeFromCart,
