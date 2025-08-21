@@ -1,3 +1,5 @@
+import type { CartProps } from "../types"
+
 function Cart({
   cart,
   removeFromCart,
@@ -6,7 +8,7 @@ function Cart({
   clearCart,
   isEmptyCart,
   totalPrice
-}) {
+} : CartProps) {
   return (
     <nav className="col-md-6 a mt-5 d-flex align-items-start justify-content-end">
       <div className="carrito">

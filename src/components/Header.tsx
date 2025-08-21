@@ -1,5 +1,7 @@
 import Cart from "./Cart";
 
+import type { CartProps } from "../types";
+
 function Header({ 
   cart,
   removeFromCart,
@@ -8,7 +10,7 @@ function Header({
   clearCart,
   isEmptyCart,
   totalPrice
-}) {
+} : CartProps) {
   return (
     <header className="py-5 header">
       <div className="container-xl">
